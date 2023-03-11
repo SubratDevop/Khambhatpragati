@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAppBackground">#EBEBEB</color>
+    <color name="colorPrimary">#007DC5</color><!--#0071B1-->
+    <color name="colorPrimaryDark">#0071B1</color>
+    <color name="colorAccent">#007DC5</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorTheme">#1c69b9</color>
+    <color name="colorWhite">#fff</color>
+    <color name="grey">#e5e3e1</color>
+    <color name="darkGrey">#818181</color>
+    <color name="priceText">#800</color>
+    <color name="colorGrey">#6b6b6b</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#4F9E01</color>
+    <color name="colorYellow">#FA4D17</color>
+
+    <color name="state_background_color">#BDBDBD</color>
+    <color name="state_background_text_color">#808080</color>
+    <color name="state_foreground_text_color">#eeeeee</color>
+
+    <color name="accept_order">#BCC80F</color>
+    <color name="color_orange">#FF6600</color>
+    <color name="orange_accent">#F3A62E</color>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@android:color/white"
+        android:elevation="2dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tvCareTakerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rihanna Love the way lie"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvLocationName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCareTakerName"
+                android:layout_marginTop="5dp"
+                android:text="Just gona stand there and ..."
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12dip" />
+
+            <!-- Artist Name -->
+            <TextView
+                android:id="@+id/tvCareTakerMobileNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvLocationName"
+                android:layout_marginTop="5dp"
+                android:text="Just gona stand there and ..."
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12dip" />
+
+
+            <!-- Rightend Arrow -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_phone" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

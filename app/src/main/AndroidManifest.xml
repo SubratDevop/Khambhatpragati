@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.khambhatpragati">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name=".application.Globals"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+        <provider
+            android:name=".GenericFileProvider"
+            android:authorities="${applicationId}.my.package.name.provider"
+            android:exported="true"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MobileVerificationActivity"
+            android:label="@string/activity_title_mobile_verification"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.ProfileActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.SelectMemberIDActivity"
+            android:label="Select Member ID"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DependentListActivity"
+            android:label="Dependent List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VastiDetailActivity"
+            android:label="Vasti Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WebviewActivity"
+            android:label="Pragati Mandal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VastiPatraActivity"
+            android:label="Vasti Patra"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DependentDetailActivity"
+            android:label="Dependent Detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OTPVerificationActivity"
+            android:label="@string/activity_title_otp_verification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CareTakerDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GroupsActivity"
+            android:label="@string/activity_title_groups"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DashboardActivity"
+            android:label="@string/activity_title_dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MessagesActivity"
+            android:label="@string/activity_title_messages"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SendMessageActivity"
+            android:label="@string/activity_title_send_messages"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MessageDescriptionActivity"
+            android:label="@string/activity_title_messages_desc"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddUserActivity"
+            android:label="@string/activity_title_add_user"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FullScreenAdActivity"
+            android:label="@string/activity_title_add_user"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserDirectoryActivity"
+            android:label="@string/activity_title_user_directory"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity> <!-- <activity -->
+        <!-- android:name="com.google.android.gms.ads.AdActivity" -->
+        <!-- android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" -->
+        <!-- android:theme="@android:style/Theme.Translucent" /> -->
+        <!--
+        <service android:name=".fcm.FCMService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name=".fcm.FirebaseIDService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        -->
+        <service android:name=".fcm.MyFirebaseInstanceIDService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".fcm.FCMService"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:stopWithTask="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

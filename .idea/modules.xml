@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/9.8.22.khambhatpragati.iml" filepath="$PROJECT_DIR$/.idea/9.8.22.khambhatpragati.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/9.8.22.khambhatpragati.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/9.8.22.khambhatpragati.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/9.8.22.khambhatpragati.libs.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/9.8.22.khambhatpragati.libs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libs/ViewPagerIndicator-Library/9.8.22.khambhatpragati.libs.ViewPagerIndicator-Library.iml" filepath="$PROJECT_DIR$/.idea/modules/libs/ViewPagerIndicator-Library/9.8.22.khambhatpragati.libs.ViewPagerIndicator-Library.iml" />
+    </modules>
+  </component>
+</project>

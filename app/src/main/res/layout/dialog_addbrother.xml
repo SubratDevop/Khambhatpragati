@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="15dp"
+            android:text="Brother Mem No." />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_bg">
+            <EditText
+                android:layout_weight="0.50"
+                android:id="@+id/edtBroMemNo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_bg"
+                android:imeOptions="actionNext"
+                android:editable="false"
+                android:paddingLeft="15dp" />
+            <ImageView
+                android:id="@+id/imgCancelBro"
+                android:layout_weight="1.25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_cancel_24"
+                android:tint="@color/colorBlack"
+                tools:ignore="UseAppTint"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/imgSearchBro"
+                android:layout_weight="1.25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_search"
+                android:layout_gravity="center"
+                android:tint="@color/colorBlack"
+                tools:ignore="UseAppTint" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="15dp"
+            android:layout_gravity="left"
+            android:text="Member Name" />
+        <EditText
+            android:id="@+id/edtMemberName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_bg"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="15dp"
+            android:layout_gravity="left"
+            android:text="Member Contact" />
+        <EditText
+            android:id="@+id/edtMemberContact"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_bg"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingLeft="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="15dp"
+            android:layout_gravity="left"
+            android:text="Member Age" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:weightSum="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_height="40dp">
+            <EditText
+                android:layout_weight="0.50"
+                android:id="@+id/edtDOB"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_bg"
+                android:imeOptions="actionNext"
+                android:editable="false"
+                android:paddingLeft="15dp" />
+            <ImageView
+                android:id="@+id/imgBroCal"
+                android:layout_weight="1.50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_calendar_today_24"
+                android:tint="@color/colorBlack"
+                tools:ignore="UseAppTint"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Add"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_margin="10dp"/>
+
+</LinearLayout>

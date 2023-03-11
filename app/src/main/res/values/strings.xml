@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Khambhatpragati</string>
+
+    <!--Activity's Title CareTaker-->
+    <string name="activity_title_mobile_verification">Verify your mobile number</string>
+    <string name="activity_title_otp_verification">OTP Verification</string>
+    <string name="activity_title_groups">Groups</string>
+    <string name="activity_title_dashboard">Dashboard</string>
+    <string name="activity_title_messages">Messages</string>
+    <string name="activity_title_send_messages">Send Message</string>
+    <string name="activity_title_messages_desc">Message Description</string>
+    <string name="activity_title_user_directory">User Directory</string>
+    <string name="activity_title_add_user">Add User</string>
+
+    <!-- AdMob ad unit IDs -->
+    <!--<string name="ad_unit_banner">ca-app-pub-3883939829734768/7568218972</string>-->
+    <!--<string name="ad_unit_interstitial">ca-app-pub-3883939829734768/8991624047</string>-->
+
+    <!--Hint-->
+    <string name="hint_category">Category</string>
+    <string name="hint_search_category">Search Category</string>
+    <string name="hint_mobile_no">Mobile No.</string>
+    <string name="hint_otp">OTP</string>
+    <string name="hint_submit">Submit</string>
+    <string name="hint_ok">Ok</string>
+    <string name="hint_verify">Verify</string>
+    <string name="hint_send_message">Send Message</string>
+    <string name="hint_send">Send</string>
+    <string name="hint_add">Add</string>
+
+    <string name="hint_msg_title">Message Title</string>
+    <string name="hint_msg_desc">Message Description</string>
+    <string name="hint_name">Name</string>
+
+    <!--Menu-->
+    <string name="menu_sync">Sync</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_user_directory">User Directory</string>
+    <string name="menu_general_directory">General Directory</string>
+    <string name="menu_logout">Logout</string>
+
+    <!--Messages-->
+    <string name="msg_no_internet">No Internet!</string>
+    <string name="msg_server_error">Internal server error, Please try after sometime!</string>
+    <string name="msg_auto_sync_failed">Auto sync failed!</string>
+    <string name="msg_sync_failed">Data sync failed!</string>
+    <string name="msg_enter_category">Enter category!</string>
+    <string name="msg_valid_mobile_no">Enter 10-digits valid mobile number!</string>
+    <string name="msg_valid_otp">Enter 4-digits OTP!</string>
+    <string name="msg_logout_alert">Do you want logout?</string>
+    <string name="msg_logout_success">You have successfully logged out.</string>
+    <string name="msg_failed_to_fetch_fcm_token">Failed to fetch FCM Register Token, Please check your Google Services.</string>
+    <string name="msg_title">Enter message title!</string>
+    <string name="msg_description">Enter message description!</string>
+    <string name="msg_groups_not_found">Groups not found on the server!</string>
+    <string name="msg_msg_not_found">New Messages not found on the server!</string>
+    <string name="msg_users_not_found">Users not available!</string>
+    <string name="msg_msg_not_available_for_group">Message not available for this group!</string>
+    <string name="msg_enter_name">Enter Name!</string>
+
+</resources>

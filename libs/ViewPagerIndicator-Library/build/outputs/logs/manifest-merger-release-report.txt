@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:3:1-8:12
+INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:3:1-8:12
+INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:3:1-8:12
+INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:3:1-8:12
+INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:3:1-8:12
+INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:3:1-8:12
+INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:3:1-8:12
+	package
+		ADDED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:4:5-37
+		INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
+		INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:6:5-32
+		INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
+		INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:3:11-69
+	android:versionCode
+		ADDED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml:5:5-29
+		INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
+		INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
+uses-sdk
+INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
+INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
+		ADDED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
+		INJECTED from C:\Users\atreyaPc\Downloads\9.8.22.khambhatpragati\libs\ViewPagerIndicator-Library\AndroidManifest.xml
